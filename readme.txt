@@ -3,10 +3,11 @@ Contributors:		codeinwp
 Tags:				two-columns, right-sidebar, custom-menu, featured-images, sticky-post, translation-ready, responsive-layout, custom-menu, theme-options,threaded-comments,
 featured-images, right-sidebar 
 Requires at least:	3.3.0
-Tested up to:		3.8
+Tested up to:		4.0
+
 Constructzine Lite
 == Description ==
-A stunning, responsive multi purpose Business WordPress theme excellent for construction companies.
+Constructzine Lite is a free responsive, business, high-resolution theme featuring a pixel perfect design, large images, and easy to read typography that scales to fit all screens. Other features include optional social menu, sidebar and footer widgets and blog template.
 
 = License =
 Constructzine Lite WordPress theme, Copyright (C) 2013 themeisle.com

@@ -1,17 +1,17 @@
 ﻿/*
 Theme Name: Constructzine Lite
-Theme URI: http://themeisle.com/demo/?theme=Constructzine%20Lite
+Theme URI: https://themeisle.com/themes/constructzine-lite/
 Author: ThemeIsle
 Author URI: http://www.themeisle.com
-Description: A stunning, responsive multi purpose Business WordPress theme excellent for construction companies
-Version: 1.0
+Description: Constructzine Lite is a free responsive, business, high-resolution theme featuring a pixel perfect design, large images, and easy to read typography that scales to fit all screens. Other features include optional social menu, sidebar and footer widgets and blog template.
+Version: 1.1
 Tags: two-columns, right-sidebar, custom-menu, featured-images, sticky-post, translation-ready, responsive-layout, custom-menu, theme-options,threaded-comments
-License: GNU General Public License
+License: GNU General Public License version 2
 License URI: license.txt
-
+Constructzine Lite is distributed under the terms of the GNU GPL
 */
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic);
-@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700);
+@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic);
+@import url(//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700);
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -382,7 +382,6 @@ header .inner {
     top: 30px;
     z-index: 0;
     text-indent: -5000em;
-    background: url(images/header-inner.png) no-repeat top right;
 }
 
 .header-top {
@@ -405,12 +404,13 @@ header .inner {
 }
 
 .call-for-action {
-    display: inline-block;
+    
     line-height: 60px;
     font-size: 30px;
     font-weight: 400;
-    padding: 0;
-    margin: 0 0 0 255px;
+    float:right;
+	margin-left:0px;
+	margin-top:0px;
 }
 
 .call-for-action span {
@@ -440,7 +440,7 @@ nav {
 }
 
 nav .navigation-menu {
-    width: 540px;
+    width: 749px;
     height: 60px;
     background: white;
     padding-left: 0px;
@@ -473,7 +473,7 @@ nav .navigation-menu ul li a:hover {
 }
 
 nav .navigation-menu ul li ul {
-    width: 200px;
+    width: 300px;
     background: #fff;
     position: absolute;
     display: none;
@@ -510,7 +510,7 @@ nav .navigation-menu ul li:hover > ul {
 }
 
 nav .navigation-socials {
-    width: 424px;
+    width: 215px;
     height: 60px;
     background: #fcd53a;
     padding-left: 0px;
