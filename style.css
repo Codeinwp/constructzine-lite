@@ -4,7 +4,7 @@ Theme URI: https://themeisle.com/themes/constructzine-lite/
 Author: ThemeIsle
 Author URI: http://www.themeisle.com
 Description: Constructzine Lite is a free responsive, business, high-resolution theme featuring a pixel perfect design, large images, and easy to read typography that scales to fit all screens. Other features include optional social menu, sidebar and footer widgets and blog template.
-Version: 1.1
+Version: 1.2
 Tags: two-columns, right-sidebar, custom-menu, featured-images, sticky-post, translation-ready, responsive-layout, custom-menu, theme-options,threaded-comments
 License: GNU General Public License version 2
 License URI: license.txt
@@ -1939,6 +1939,7 @@ footer {
 #respond {
     width: 100%;
     margin-top: 90px;
+	float:left;
 }
 
 #respond .respond {
