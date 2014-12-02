@@ -1113,6 +1113,9 @@ footer {
 .blog-left article .post-entry p,
 .services-entry p {
     margin: 10px 0;
+	font-size: 17px;
+    line-height: 120%;
+    font-weight: 400;
 }
 
 .blog-left article .post-entry p:first-child,
@@ -2929,12 +2932,4 @@ dl.gallery-columns-9 .wp-caption-text {
     footer .directions {
         width: 44.60%;
     }
-}
-
-
-.post-entry p{
-    font-size: 17px !important;
-    line-height: 120%;
-    font-weight: 400;
-
 }
