@@ -1,4 +1,4 @@
-﻿/*
+/*
 Theme Name: Constructzine Lite
 Theme URI: https://themeisle.com/themes/constructzine-lite/
 Author: ThemeIsle
@@ -2929,4 +2929,11 @@ dl.gallery-columns-9 .wp-caption-text {
     footer .directions {
         width: 44.60%;
     }
+}
+
+
+.post-entry p{
+    font-size: 17px !important;
+    line-height: 120%;
+
 }
