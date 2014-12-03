@@ -1,11 +1,11 @@
-﻿/*
+/*
 Theme Name: Constructzine Lite
 Theme URI: https://themeisle.com/themes/constructzine-lite/
 Author: ThemeIsle
 Author URI: http://www.themeisle.com
-Description: Constructzine Lite is a free responsive, business, high-resolution theme featuring a pixel perfect design, large images, and easy to read typography that scales to fit all screens. Other features include optional social menu, sidebar and footer widgets and blog template.
-Version: 1.1
-Tags: two-columns, right-sidebar, custom-menu, featured-images, sticky-post, translation-ready, responsive-layout, custom-menu, theme-options,threaded-comments
+Description: Constructzine Lite is a free responsive, business, high-resolution theme featuring a pixel perfect design, large images, and easy to read typography that scales to fit all screens. Other features include optional social menu, sidebar and footer widgets and blog template.<a href="https://themeisle.com/forums/forum/constructzine-lite">Official support forum</a> (https://themeisle.com/forums/forum/constructzine-lite).
+Version: 1.2.1
+Tags: two-columns, right-sidebar, custom-menu, featured-images, sticky-post, translation-ready, responsive-layout, theme-options,threaded-comments, custom-header, yellow, gray, black, white, dark
 License: GNU General Public License version 2
 License URI: license.txt
 Constructzine Lite is distributed under the terms of the GNU GPL
@@ -1113,6 +1113,9 @@ footer {
 .blog-left article .post-entry p,
 .services-entry p {
     margin: 10px 0;
+	font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
 }
 
 .blog-left article .post-entry p:first-child,
@@ -1939,6 +1942,7 @@ footer {
 #respond {
     width: 100%;
     margin-top: 90px;
+	float:left;
 }
 
 #respond .respond {
@@ -2534,7 +2538,12 @@ dl.gallery-columns-9 .wp-caption-text {
 .openresponsivemenu {
     display: none;
 }
-
+.constructzine-lite-copyright {
+	text-align:right;
+}
+.constructzine-lite-copyright a {
+	color: #fff;
+}
 /*
 **  2 - Responsive
 **

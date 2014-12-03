@@ -13,7 +13,7 @@ Constructzine Lite is a free responsive, business, high-resolution theme featuri
 Constructzine Lite WordPress theme, Copyright (C) 2013 themeisle.com
 Constructzine Lite WordPress theme is licensed under the GPL3.
 
-Unless otherwise specified, all the theme files, scripts and images are licensed under GNU General Public Licemse.
+Unless otherwise specified, all the theme files, scripts and images are licensed under GNU General Public License.
 The exceptions to this license are as follows: 
 
 carouFredSel
