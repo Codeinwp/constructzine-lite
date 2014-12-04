@@ -7,7 +7,7 @@ Tested up to:		4.0
 
 Constructzine Lite
 == Description ==
-Constructzine Lite is a free responsive, business, high-resolution theme featuring a pixel perfect design, large images, and easy to read typography that scales to fit all screens. Other features include optional social menu, sidebar and footer widgets and blog template.
+Constructzine Lite is a free responsive, business, high-resolution theme featuring a pixel perfect design, large images, and easy to read typography that scales to fit all screens. Other features include optional social menu, sidebar and footer widgets and blog template. <a href="https://themeisle.com/forums/forum/constructzine-lite">Official support forum</a> (https://themeisle.com/forums/forum/constructzine-lite).
 
 = License =
 Constructzine Lite WordPress theme, Copyright (C) 2013 themeisle.com
