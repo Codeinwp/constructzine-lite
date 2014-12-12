@@ -1607,7 +1607,7 @@ footer {
 .sidebar .widget {
     width: 100%;
     line-height: 16px;
-    margin-top: 60px;
+    margin-top: 50px;
     color: #414140;
     position: relative;
     float: left;
@@ -1717,6 +1717,7 @@ footer {
     -ms-transition: all 0.3s;
     transition: all 0.3s;
     color: #8e8e8e;
+	font-size: 18px;
 }
 
 .sidebar .widget ul li a:hover {
