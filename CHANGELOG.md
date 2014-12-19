@@ -1,5 +1,15 @@
 
 
+### 1.2.4 - 19/12/2014
+
+ Changes: 
+
+
+ * added forum , documentation links and sections available in pro version
+ * Added on wp.org repository
+ * added wp product review
+
+
 ### 1.2.2 - 03/12/2014
 
  Changes: 
