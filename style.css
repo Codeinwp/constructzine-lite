@@ -2546,6 +2546,19 @@ dl.gallery-columns-9 .wp-caption-text {
 .constructzine-lite-copyright a {
 	color: #fff;
 }
+#no-logo {
+	float: left;
+	text-align: center;
+}
+#no-logo h1, #no-logo h2 {
+	line-height: 44px;
+	margin: 0px;
+}
+#no-logo h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+}
+
 /*
 **  2 - Responsive
 **
