@@ -705,6 +705,10 @@ footer {
     float: left;
 }
 
+.full-width{
+	width:100%;
+}
+
 .blog-left .blog-left-title {
     width: 100%;
     color: #333332;
