@@ -5,6 +5,14 @@
  Changes: 
 
 
+ * Update style.css
+
+
+### 1.2.7 - 29/12/2014
+
+ Changes: 
+
+
  * -translatable text in footer; -customizer sidebar-home; -add large Pro button; -add css to title; -remove text from search widget; -remove comments on pages
  * this fixes #25
  * this fixes #25
