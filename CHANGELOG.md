@@ -1,5 +1,35 @@
 
 
+### 1.2.7 - 29/12/2014
+
+ Changes: 
+
+
+ * -translatable text in footer; -customizer sidebar-home; -add large Pro button; -add css to title; -remove text from search widget; -remove comments on pages
+ * this fixes #25
+ * this fixes #25
+ * this fixes #22
+ * this fixes #28
+ * this fixes #27
+ * this fixes #31
+ * this fixes #30
+ * Merge pull request #29 from cristian-ungureanu/development
+
+Changes
+ * This fixes #30, full widtg template responsive + update style version
+ * Changed class name for full width page
+ * This fixes #23 search form
+ * This fixes #20 translated text in footer
+ * Changed tags+description
+ * This fixes #31
+ * This fixes #24 site title if no logo
+ * Fixed social buttons
+ * This fixes #27 translated hardcoded sidebar
+ * This fixes #25
+ * Larger font size for box, left align in sidebar
+ * sync the homepage right widget size.
+
+
 ### 1.2.4 - 19/12/2014
 
  Changes: 
