@@ -4,7 +4,7 @@ Theme URI: https://themeisle.com/themes/constructzine-lite/
 Author: ThemeIsle
 Author URI: http://www.themeisle.com
 Description: Constructzine Lite is a free responsive, business, high-resolution theme built with construction companies in mind, featuring a pixel perfect design, large images, and easy to read typography that scales to fit all screens. Other features include optional social menu, sidebar, footer widgets and blog template.All options are using WordPress Theme Customizer feature so you can watch changes live! <a href="https://themeisle.com/forums/forum/constructzine-lite">Official support forum</a> (https://themeisle.com/forums/forum/constructzine-lite).
-Version: 1.2.6
+Version: 1.2.7
 Tags: yellow, gray,blue, black, white, dark, lite, two-columns,one-column, right-sidebar,full-width-template,fixed-layout, custom-menu, featured-images, sticky-post, translation-ready, responsive-layout, theme-options,threaded-comments, custom-header, rtl-language-support, custom-background,front-page-post-form
 License: GNU General Public License version 2
 License URI: license.txt
@@ -154,7 +154,7 @@ a {
 /* Body
 ------------------------------------------------------- */
 body {
-    font-size: 14px;
+    font-size: 15px;
     color: #333331;
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
@@ -215,7 +215,7 @@ body {
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
     box-sizing: border-box;
-    font-weight: 300;
+    font-weight: 400;
     width: 300px;
     float: left;
     margin-left: 30px;
@@ -313,7 +313,7 @@ aside {
 }
 
 .feedback p {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -1721,6 +1721,9 @@ footer {
     padding-left: 15px;
     color: #8e8e8e;
     word-break: break-all;
+	background: url("images/list-style-image.png") no-repeat center left;
+	list-style-type: none;
+	text-align:left;
 }
 
 .sidebar .widget ul li a {
