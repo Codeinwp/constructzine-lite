@@ -733,6 +733,15 @@ footer {
     font-size: 24px;
 }
 
+.blog-left article .post-entry .wpcf7 form p br{
+	display:block;
+}
+
+.blog-left article .post-entry .wpcf7 form p{
+	float:left;
+	clear:both;
+}
+
 .blog-left article .post-title:hover {
     border-bottom: 1px solid #414140;
 }
@@ -876,9 +885,6 @@ footer {
     color: #414140;
 }
 
-.blog-left article .post-entry .wpcf7-form input[type="email"] {
-    margin: 0 8px 0 8px;
-}
 
 .blog-left article .post-entry .wpcf7-form .wpcf7-text::-webkit-input-placeholder {
     color: #cacaca;
