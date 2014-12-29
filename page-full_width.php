@@ -10,7 +10,7 @@ get_header();?>
 
 		<div class="inner cf">
 
-			<div class="blog-left full-width">
+			<div class="blog-left ti-cl-full-width">
 
 
 				<?php

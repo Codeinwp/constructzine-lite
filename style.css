@@ -705,7 +705,7 @@ footer {
     float: left;
 }
 
-.full-width{
+.ti-cl-full-width{
 	width:100%;
 }
 
@@ -2940,7 +2940,7 @@ dl.gallery-columns-9 .wp-caption-text {
         width: 44.60%;
     }
 	
-	.full-width {
+	.ti-cl-full-width {
 		width: 100% !important;
 	}
 }
