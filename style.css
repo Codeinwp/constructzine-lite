@@ -535,11 +535,6 @@ nav .navigation-socials:before {
 }
 
 nav .navigation-socials li {
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    transition: all 0.3s;
     list-style-type: none;
     float: left;
 }
@@ -568,13 +563,6 @@ nav .navigation-socials li .youtube-icon {
     float: left;
 }
 
-nav .navigation-socials li:hover {
-    -webkit-opacity: 0.7;
-    -moz-opacity: 0.7;
-    -ms-opacity: 0.7;
-    -o-opacity: 0.7;
-    opacity: 0.7;
-}
 
 /*
 ** 1.6 Contact
