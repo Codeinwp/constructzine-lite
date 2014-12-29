@@ -3,9 +3,9 @@ Theme Name: Constructzine Lite
 Theme URI: https://themeisle.com/themes/constructzine-lite/
 Author: ThemeIsle
 Author URI: http://www.themeisle.com
-Description: Constructzine Lite is a free responsive, business, high-resolution theme featuring a pixel perfect design, large images, and easy to read typography that scales to fit all screens. Other features include optional social menu, sidebar and footer widgets and blog template. <a href="https://themeisle.com/forums/forum/constructzine-lite">Official support forum</a> (https://themeisle.com/forums/forum/constructzine-lite).
-Version: 1.2.4
-Tags: two-columns, right-sidebar, custom-menu, featured-images, sticky-post, translation-ready, responsive-layout, theme-options,threaded-comments, custom-header, yellow, gray, black, white, dark
+Description: Constructzine Lite is a free responsive, business, high-resolution theme built with construction companies in mind, featuring a pixel perfect design, large images, and easy to read typography that scales to fit all screens. Other features include optional social menu, sidebar, footer widgets and blog template.All options are using WordPress Theme Customizer feature so you can watch changes live! <a href="https://themeisle.com/forums/forum/constructzine-lite">Official support forum</a> (https://themeisle.com/forums/forum/constructzine-lite).
+Version: 1.2.7
+Tags: yellow, gray,blue, black, white, dark, lite, two-columns,one-column, right-sidebar,full-width-template,fixed-layout, custom-menu, featured-images, sticky-post, translation-ready, responsive-layout, theme-options,threaded-comments, custom-header, rtl-language-support, custom-background,front-page-post-form
 License: GNU General Public License version 2
 License URI: license.txt
 Constructzine Lite is distributed under the terms of the GNU GPL
@@ -154,7 +154,7 @@ a {
 /* Body
 ------------------------------------------------------- */
 body {
-    font-size: 14px;
+    font-size: 15px;
     color: #333331;
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
@@ -215,7 +215,7 @@ body {
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
     box-sizing: border-box;
-    font-weight: 300;
+    font-weight: 400;
     width: 300px;
     float: left;
     margin-left: 30px;
@@ -304,16 +304,12 @@ aside {
     float: right;
 }
 
-.feedback.block {
-    margin-top: 50px;
-}
-
 .feedback {
     text-align: center;
 }
 
 .feedback p {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -388,6 +384,10 @@ header .inner {
     color: white;
     font-family: "Yanone Kaffeesatz", sans-serif;
     margin-bottom: 60px;
+}
+
+.site-title a{
+	color:#ffffff;
 }
 
 #logo {
@@ -531,14 +531,22 @@ nav .navigation-socials:before {
 }
 
 nav .navigation-socials li {
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     -ms-transition: all 0.3s;
     transition: all 0.3s;
     list-style-type: none;
     float: left;
 }
+nav .navigation-socials li:hover {
+    -webkit-opacity: 0.7;
+    -moz-opacity: 0.7;
+    -ms-opacity: 0.7;
+    -o-opacity: 0.7;
+    opacity: 0.7;
+}
+
 
 nav .navigation-socials li .facebook-icon {
     width: 11px;
@@ -562,14 +570,6 @@ nav .navigation-socials li .youtube-icon {
     background: url("images/youtube-icon.png") center no-repeat;
     margin-left: 16px;
     float: left;
-}
-
-nav .navigation-socials li:hover {
-    -webkit-opacity: 0.7;
-    -moz-opacity: 0.7;
-    -ms-opacity: 0.7;
-    -o-opacity: 0.7;
-    opacity: 0.7;
 }
 
 /*
@@ -714,6 +714,10 @@ footer {
     float: left;
 }
 
+.ti-cl-full-width{
+	width:100%;
+}
+
 .blog-left .blog-left-title {
     width: 100%;
     color: #333332;
@@ -740,6 +744,15 @@ footer {
     word-wrap: break-word;
     font-weight: 700;
     font-size: 24px;
+}
+
+.blog-left article .post-entry .wpcf7 form p br{
+	display:block;
+}
+
+.blog-left article .post-entry .wpcf7 form p{
+	float:left;
+	clear:both;
 }
 
 .blog-left article .post-title:hover {
@@ -885,9 +898,6 @@ footer {
     color: #414140;
 }
 
-.blog-left article .post-entry .wpcf7-form input[type="email"] {
-    margin: 0 8px 0 8px;
-}
 
 .blog-left article .post-entry .wpcf7-form .wpcf7-text::-webkit-input-placeholder {
     color: #cacaca;
@@ -1600,7 +1610,7 @@ footer {
     float: right;
 }
 .sidebar-home{
-    margin-top:10px;
+    margin-top:30px;
     padding-top:0px;
 
 }
@@ -1650,6 +1660,7 @@ footer {
 
 .sidebar .widget .searchform {
     width: 100%;
+	padding-top:21px;
 }
 
 .sidebar .widget .searchform .screen-reader-text {
@@ -1702,12 +1713,13 @@ footer {
 
 .sidebar .widget ul li {
     width: 100%;
-    background: url("images/list-style-image.png") no-repeat center left;
     margin-top: 10px;
     padding-left: 15px;
-    list-style-type: none;
     color: #8e8e8e;
     word-break: break-all;
+	background: url("images/list-style-image.png") no-repeat center left;
+	list-style-type: none;
+	text-align:left;
 }
 
 .sidebar .widget ul li a {
@@ -2544,6 +2556,19 @@ dl.gallery-columns-9 .wp-caption-text {
 .constructzine-lite-copyright a {
 	color: #fff;
 }
+#no-logo {
+	float: left;
+	text-align: center;
+}
+#no-logo h1, #no-logo h2 {
+	line-height: 44px;
+	margin: 0px;
+}
+#no-logo h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+}
+
 /*
 **  2 - Responsive
 **
@@ -2937,4 +2962,8 @@ dl.gallery-columns-9 .wp-caption-text {
     footer .directions {
         width: 44.60%;
     }
+	
+	.ti-cl-full-width {
+		width: 100% !important;
+	}
 }
