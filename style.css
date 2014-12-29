@@ -535,9 +535,22 @@ nav .navigation-socials:before {
 }
 
 nav .navigation-socials li {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
     list-style-type: none;
     float: left;
 }
+nav .navigation-socials li:hover {
+    -webkit-opacity: 0.7;
+    -moz-opacity: 0.7;
+    -ms-opacity: 0.7;
+    -o-opacity: 0.7;
+    opacity: 0.7;
+}
+
 
 nav .navigation-socials li .facebook-icon {
     width: 11px;
@@ -1704,10 +1717,8 @@ footer {
 
 .sidebar .widget ul li {
     width: 100%;
-    background: url("images/list-style-image.png") no-repeat center left;
     margin-top: 10px;
     padding-left: 15px;
-    list-style-type: none;
     color: #8e8e8e;
     word-break: break-all;
 }
