@@ -304,10 +304,6 @@ aside {
     float: right;
 }
 
-.feedback.block {
-    margin-top: 50px;
-}
-
 .feedback {
     text-align: center;
 }
@@ -1614,7 +1610,7 @@ footer {
     float: right;
 }
 .sidebar-home{
-    margin-top:10px;
+    margin-top:30px;
     padding-top:0px;
 
 }
