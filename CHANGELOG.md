@@ -1,5 +1,14 @@
 
 
+### 1.2.8 - 03/01/2015
+
+ Changes: 
+
+
+ * added comments back on pages
+ * increased vers
+
+
 ### 1.2.7 - 29/12/2014
 
  Changes: 
