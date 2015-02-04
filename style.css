@@ -453,6 +453,10 @@ nav .navigation-menu ul li {
     float: left;
 }
 
+nav .navigation-menu .menu{
+float:left;
+}
+
 nav .navigation-menu ul li a {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -513,7 +517,7 @@ nav .navigation-socials {
     height: 60px;
     background: #fcd53a;
     padding-left: 0px;
-    float: right;
+    float: left;
 }
 
 nav .navigation-socials:before {
@@ -2589,6 +2593,10 @@ dl.gallery-columns-9 .wp-caption-text {
         width: 100%;
         margin-right: 0;
     }
+	
+	.responsivemenu ul {
+    width: 187.5%!important;
+  }
 }
 
 /*
