@@ -2689,6 +2689,10 @@ dl.gallery-columns-9 .wp-caption-text {
     body {
         max-width: 768px;
     }
+	
+	.nav-container.responsivemenu li {
+		display:block !important;
+	}
 
     .navigation-menu {
         width: 50% !important;
