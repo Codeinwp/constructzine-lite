@@ -513,7 +513,7 @@ nav .navigation-socials {
     height: 60px;
     background: #fcd53a;
     padding-left: 0px;
-    float: right;
+    float: left;
 }
 
 nav .navigation-socials:before {
@@ -2689,6 +2689,11 @@ dl.gallery-columns-9 .wp-caption-text {
     body {
         max-width: 768px;
     }
+	
+	.nav-container.responsivemenu li {
+		display:block !important;
+		clear:both;
+	}
 
     .navigation-menu {
         width: 50% !important;
