@@ -1,5 +1,19 @@
 
 
+### 1.3.1 - 26/02/2015
+
+ Changes: 
+
+
+ * This fixed #40
+ * fixed overlapping chid and line in menu
+ * Merge pull request #44 from rodica-andronache/development
+
+menu issue #40
+ * Fixed #46, fatal error in Customizer
+ * Update style.css
+
+
 ### 1.2.8 - 03/01/2015
 
  Changes: 
