@@ -1,5 +1,13 @@
 
 
+### 1.3.2 - 30/04/2015
+
+ Changes: 
+
+
+ * Fixed #43, Leave us a review button and default logo path to child theme in case that exists
+
+
 ### 1.3.1 - 26/02/2015
 
  Changes: 
