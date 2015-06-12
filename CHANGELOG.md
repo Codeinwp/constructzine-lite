@@ -1,5 +1,13 @@
 
 
+### 1.3.3 - 12/06/2015
+
+ Changes: 
+
+
+ * Fixed #50, improved customizer with panels and moved the upsales down in the list
+
+
 ### 1.3.2 - 30/04/2015
 
  Changes: 
