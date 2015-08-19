@@ -1,5 +1,14 @@
 
 
+### 1.3.5 - 19/08/2015
+
+ Changes: 
+
+
+ * Fixed #54 Menu issue on AT(and)T smartphone
+ * Update style.css
+
+
 ### 1.3.4 - 16/07/2015
 
  Changes: 
