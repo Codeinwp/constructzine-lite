@@ -2549,6 +2549,12 @@ dl.gallery-columns-9 .wp-caption-text {
 .openresponsivemenu {
     display: none;
 }
+.menu-icon-mobile {
+    width: 32px;
+    height: 32px;
+    background: url(images/mobile-menu-icon.png) no-repeat center center;
+    float: left;
+}
 .constructzine-lite-copyright {
 	text-align:right;
 }
