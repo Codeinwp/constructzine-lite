@@ -1,5 +1,13 @@
 
 
+### 1.3.6 - 21/08/2015
+
+ Changes: 
+
+
+ * Fixed theme check errors
+
+
 ### 1.3.5 - 19/08/2015
 
  Changes: 
