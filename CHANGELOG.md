@@ -1,5 +1,13 @@
 
 
+### 1.3.7 - 20/11/2015
+
+ Changes: 
+
+
+ * Fixed #52 Added a option to hide testimonials on homepage
+
+
 ### 1.3.6 - 21/08/2015
 
  Changes: 
