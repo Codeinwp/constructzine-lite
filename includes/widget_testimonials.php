@@ -1,12 +1,12 @@
 <?php
 
-function register_testimonial_widget() {
-    register_widget( 'Testimonials_Widget' );
+function constructzine_lite_register_testimonial_widget() {
+    register_widget( 'Constructzine_Lite_Testimonials_Widget' );
 }
-add_action( 'widgets_init', 'register_testimonial_widget' );
+add_action( 'widgets_init', 'constructzine_lite_register_testimonial_widget' );
 
 
-class Testimonials_Widget extends WP_Widget {
+class Constructzine_Lite_Testimonials_Widget extends WP_Widget {
 
 	/**
 	 * Register widget with WordPress.
@@ -42,28 +42,28 @@ class Testimonials_Widget extends WP_Widget {
 		?>
 		<div class="feedback block">
 			<h2 class="block-title">
-				<?php if(!empty($instance['title'])) echo $instance['title']; ?>
+				<?php if(!empty($instance['title'])) echo esc_attr($instance['title']); ?>
 			</h2>
 
 			<div class="feedback">
 				<p class="feedback-meta">
 					<strong>
-						<?php if(!empty($instance['first_name'])) echo $instance['first_name']; ?>							
+						<?php if(!empty($instance['first_name'])) echo esc_attr( $instance['first_name'] ); ?>							
 					</strong>
 				</p><!--/.feedback-meta-->
 				<blockquote>
-					<p><?php if(!empty($instance['tst1'])) echo $instance['tst1']; ?></p>
+					<p><?php if(!empty($instance['tst1'])) echo esc_attr( $instance['tst1'] ); ?></p>
 				</blockquote><!--/.feedback-entry-->
 			</div>
 
 			<div class="feedback">
 				<p class="feedback-meta">
 					<strong>
-						<?php if(!empty($instance['second_name'])) echo $instance['second_name']; ?>
+						<?php if(!empty($instance['second_name'])) echo esc_attr( $instance['second_name'] ); ?>
 					</strong>
 				</p><!--/.feedback-meta-->
 				<blockquote>
-					<p><?php if(!empty($instance['tst2'])) echo $instance['tst2']; ?></p>
+					<p><?php if(!empty($instance['tst2'])) echo esc_attr( $instance['tst2'] ); ?></p>
 				</blockquote>
 			</div>
 		</div>

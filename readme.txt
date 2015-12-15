@@ -3,7 +3,7 @@ Contributors:		codeinwp
 Tags:				two-columns, right-sidebar, custom-menu, featured-images, sticky-post, translation-ready, responsive-layout, custom-menu, theme-options,threaded-comments,
 featured-images, right-sidebar 
 Requires at least:	3.3.0
-Tested up to:		4.0
+Tested up to:		4.4
 
 Constructzine Lite
 == Description ==
@@ -20,12 +20,19 @@ carouFredSel
 License: Dual licensed under the MIT and GPL licenses. 
 Copyright: (c) 2013 Fred Heusschen (caroufredsel.dev7studios.com)
  
-Source Sans Pro Font
-License: Distributed under the terms of SIL Open Font License (OFL) ( http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL )
-Copyright: Paul D. Hunt
+Open Sans Font
+License: Distributed under the terms of Apache License, version 2.0 ( http://www.apache.org/licenses/LICENSE-2.0.html )
+Copyright: Steve Matteson
  
 Yanone Kaffeesatz Font
 License:  Distributed free under a Creative Commons License ( http://creativecommons.org/licenses/by/2.0/de/deed.en )
 Copyright: Yanone
+
+* Images	 
+	 
+	License: All unsplash.com images are licensed under the terms of the Creative Commons Zero, http://creativecommons.org/publicdomain/zero/1.0/ 
+	
+	https://download.unsplash.com/25/black-white-city.jpg
+	https://unsplash.imgix.net/45/HWijjF7RwOPGEJ1nb4Zb_IMG_3773.jpg
  
  
