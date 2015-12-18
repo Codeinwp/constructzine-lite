@@ -36,10 +36,7 @@ get_header();?>
 								if ( $featured_image != null ) {
 									?>
 
-									<div class="asd"
-									     style="background-image: url('<?php echo $featured_image[0]; ?>');">
-
-									</div>
+									<div class="asd" style="background-image: url('<?php echo $featured_image[0]; ?>');"></div>
 
 								<?php
 								}

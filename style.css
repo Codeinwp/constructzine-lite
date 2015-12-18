@@ -4,8 +4,10 @@ Theme URI: https://themeisle.com/themes/constructzine-lite/
 Author: ThemeIsle
 Author URI: https://www.themeisle.com
 Description: Constructzine Lite is a free construction company Business WordPress Theme, responsive, high-resolution corporate theme built with construction companies / businesses in mind, featuring a pixel perfect responsive corporate design, large images, other features include optional social menu, sidebar,clean, modern and minimal responsive design footer widgets and blog / business template.Some other businesses that uses it are : translators, interior design, architec, plumber,lawyer, painter, roofing business,repairing or even it consulting ones.All options are using WordPress Theme Customizer feature so you can watch changes live! <a href="https://themeisle.com/forums/forum/constructzine-lite">Official support forum</a> (https://themeisle.com/forums/forum/constructzine-lite).
-Version: 1.3.7
-Tags: yellow, gray,blue, black, white, dark, light, two-columns,one-column, right-sidebar,full-width-template,fixed-layout, custom-menu, featured-images, sticky-post, translation-ready, responsive-layout, theme-options,threaded-comments, custom-header, rtl-language-support, custom-background,front-page-post-form
+Version: 1.3.8
+Text Domain: constructzine-lite
+Domain Path: /languages/
+Tags: yellow, gray,blue, black, white, dark, light, two-columns,one-column, right-sidebar,full-width-template,responsive-layout, custom-menu, featured-images, sticky-post, translation-ready, responsive-layout, theme-options,threaded-comments, custom-header, rtl-language-support, custom-background
 License: GNU General Public License version 2
 License URI: license.txt
 Constructzine Lite is distributed under the terms of the GNU GPL
@@ -153,10 +155,10 @@ a {
 /* Body
 ------------------------------------------------------- */
 body {
-    font-size: 15px;
+    font-size: 14px;
     color: #333331;
     margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 * {
@@ -386,7 +388,7 @@ header .inner {
 
 .header-top {
     color: white;
-    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-family: "Maiden Orange", sans-serif;
     margin-bottom: 60px;
 }
 
@@ -454,7 +456,7 @@ nav .navigation-menu {
 nav .navigation-menu ul li {
     list-style-type: none;
     position: relative;
-    font-size: 18px;
+    font-size: 16px;
     float: left;
 }
 
@@ -875,7 +877,7 @@ footer {
     color: #cacaca;
     float: left;
     outline: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
 
@@ -936,7 +938,7 @@ footer {
     resize: none;
     float: left;
     color: #cacaca;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
 
@@ -997,7 +999,7 @@ footer {
     float: left;
     color: #333332;
     font-weight: 700;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
 
@@ -1018,7 +1020,7 @@ footer {
     padding: 0 28px;
     border: 1px solid #E8E8E8;
     color: #CACACA;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
 
@@ -1033,7 +1035,7 @@ footer {
     background: #FCD53A;
     border: none;
     color: #333332;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     font-size: 18px;
 }
@@ -1127,7 +1129,7 @@ footer {
 .blog-left article .post-entry p,
 .services-entry p {
     margin: 10px 0;
-	font-size: 18px;
+	font-size: 16px;
     line-height: 30px;
     font-weight: 300;
 }
@@ -1980,7 +1982,7 @@ footer {
     color: #cacaca;
     float: left;
     outline: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
 
@@ -2044,7 +2046,7 @@ footer {
     resize: none;
     float: left;
     color: #cacaca;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
 
@@ -2105,7 +2107,7 @@ footer {
     float: left;
     color: #333332;
     font-weight: 700;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
 
@@ -2575,7 +2577,7 @@ dl.gallery-columns-9 .wp-caption-text {
 	margin: 0px;
 }
 #no-logo h2 {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 }
 
