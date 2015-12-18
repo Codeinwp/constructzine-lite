@@ -1,5 +1,14 @@
 
 
+### 1.3.8 - 18/12/2015
+
+ Changes: 
+
+
+ * Fixed wordpress.org review
+ * Merge branch 'development' of https://github.com/Codeinwp/constructzine-lite into development
+
+
 ### 1.3.7 - 20/11/2015
 
  Changes: 
