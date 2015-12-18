@@ -24,9 +24,9 @@ Open Sans Font
 License: Distributed under the terms of Apache License, version 2.0 ( http://www.apache.org/licenses/LICENSE-2.0.html )
 Copyright: Steve Matteson
  
-Yanone Kaffeesatz Font
-License:  Distributed free under a Creative Commons License ( http://creativecommons.org/licenses/by/2.0/de/deed.en )
-Copyright: Yanone
+Maiden Orange Font
+License: Distributed under the terms of Apache License, version 2.0 ( http://www.apache.org/licenses/LICENSE-2.0.html )
+Copyright: Brian J. Bonislawsky
 
 * Images	 
 	 
