@@ -1,7 +1,6 @@
 === Constructzine Lite ===
 Contributors:		codeinwp
-Tags:				two-columns, right-sidebar, custom-menu, featured-images, sticky-post, translation-ready, responsive-layout, custom-menu, theme-options,threaded-comments,
-featured-images, right-sidebar 
+Tags:				two-columns,one-column, right-sidebar,full-width-template, custom-menu, featured-images, sticky-post, translation-ready, theme-options,threaded-comments, custom-header, custom-background
 Requires at least:	3.3.0
 Tested up to:		4.4
 
