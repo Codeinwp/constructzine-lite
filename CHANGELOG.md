@@ -1,4 +1,8 @@
 
+### 1.4.0 - 21/12/2016
+**Changes:** 
+- Fix issue with WordPress 4.7 in customize
+
 
 ### 1.3.8 - 18/12/2015
 
