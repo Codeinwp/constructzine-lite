@@ -1,4 +1,81 @@
 
+### 1.4.0 - 21/12/2016
+**Changes:** 
+- Fix issue with WordPress 4.7 in customize
+
+
+### 1.3.8 - 18/12/2015
+
+ Changes: 
+
+
+ * Fixed wordpress.org review
+ * Merge branch 'development' of https://github.com/Codeinwp/constructzine-lite into development
+
+
+### 1.3.7 - 20/11/2015
+
+ Changes: 
+
+
+ * Fixed #52 Added a option to hide testimonials on homepage
+
+
+### 1.3.6 - 21/08/2015
+
+ Changes: 
+
+
+ * Fixed theme check errors
+
+
+### 1.3.5 - 19/08/2015
+
+ Changes: 
+
+
+ * Fixed #54 Menu issue on AT(and)T smartphone
+ * Update style.css
+
+
+### 1.3.4 - 16/07/2015
+
+ Changes: 
+
+
+ * Update class-tgm-plugin-activation to latest version
+ * Update style.css
+
+
+### 1.3.3 - 12/06/2015
+
+ Changes: 
+
+
+ * Fixed #50, improved customizer with panels and moved the upsales down in the list
+
+
+### 1.3.2 - 30/04/2015
+
+ Changes: 
+
+
+ * Fixed #43, Leave us a review button and default logo path to child theme in case that exists
+
+
+### 1.3.1 - 26/02/2015
+
+ Changes: 
+
+
+ * This fixed #40
+ * fixed overlapping chid and line in menu
+ * Merge pull request #44 from rodica-andronache/development
+
+menu issue #40
+ * Fixed #46, fatal error in Customizer
+ * Update style.css
+
 
 ### 1.2.8 - 03/01/2015
 
