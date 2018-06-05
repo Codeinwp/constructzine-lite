@@ -123,14 +123,9 @@ function constructzine_lite_required_plugins() {
     $plugins = array(
 
         // This is an example of how to include a plugin from the WordPress Plugin Repository
-	    array(
-		    'name'      => 'Orbit Fox',
-		    'slug'      => 'themeisle-companion',
-		    'required'  => false,
-	    ),
         array(
-            'name'      => __('Tweet Old Post','constructzine-lite'),
-            'slug'      => 'tweet-old-post',
+            'name'      => __('Orbit Fox','constructzine-lite'),
+            'slug'      => 'themeisle-companion',
             'required'  => false,
         ),
         array(
@@ -138,12 +133,6 @@ function constructzine_lite_required_plugins() {
             'slug'      => 'contact-form-7',
             'required'  => false,
         ),
-        array(
-            'name'      => __('WP Product Review','constructzine-lite'),
-            'slug'      => 'wp-product-review',
-            'required'  => false,
-        ),
-
     );
 
     /**
