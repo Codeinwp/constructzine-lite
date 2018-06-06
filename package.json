@@ -1,0 +1,31 @@
+{
+  "name": "constructzine-lite",
+  "nicename": "constructzine-lite",
+  "version": "1.4.2",
+  "description": "constructzine-lite theme",
+  "category": "themes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codeinwp/constructzine-lite.git"
+  },
+  "keywords": [
+    "wordpress-theme"
+  ],
+  "theme": {
+    "textdomain": "constructzine-lite"
+  },
+  "author": "ThemeIsle <friends@themeisle.com>",
+  "license": "GPL-2.0+",
+  "bugs": {
+    "url": "https://github.com/Codeinwp/constructzine-lite/issues"
+  },
+  "pot": {
+    "reportmsgidbugsto": "https://github.com/Codeinwp/constructzine-lite/issues",
+    "languageteam": "Themeisle Translate <friends@themeisle.com>",
+    "lasttranslator": "Themeisle Translate Team <friends@themeisle.com>"
+  },
+  "devDependencies": {
+    "grunt-theme-fleet": "codeinwp/grunt-theme-fleet",
+    "load-project-config": "~0.2.0"
+  }
+}

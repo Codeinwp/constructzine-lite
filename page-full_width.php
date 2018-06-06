@@ -55,14 +55,16 @@ get_header();?>
 
 							<?php
 
-							wp_link_pages( array(
+							wp_link_pages(
+								array(
 
 								'before'      => '<div class="post-links"><span class="post-links-title">' . __( 'Pages:', 'constructzine-lite' ) . '</span>',
 								'after'       => '</div>',
 								'link_before' => '<span>',
 								'link_after'  => '</span>',
 
-							) );
+								)
+							);
 
 							?>
 
