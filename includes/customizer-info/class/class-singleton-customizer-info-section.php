@@ -51,7 +51,7 @@ final class Customizer_Info_Singleton {
 	private function setup_actions() {
 
 		// Register panels, sections, settings, controls, and partials.
-		add_action( 'customize_register', array( $this, 'sections' ), 1);
+		add_action( 'customize_register', array( $this, 'sections' ), 1 );
 
 		// Register scripts and styles for the controls.
 		add_action( 'customize_controls_enqueue_scripts', array( $this, 'enqueue_control_scripts' ), 0 );
@@ -74,12 +74,16 @@ final class Customizer_Info_Singleton {
 		$manager->register_section_type( 'Customizer_Info' );
 
 		// Register sections.
-		$manager->add_section( new Customizer_Info( $manager, 'constructzine_lite_view_pro', array(
-			'section_title' => __('View PRO version', 'constructzine-lite'),
-			'section_url' => 'https://themeisle.com/themes/constructzine-construction-wordpress-theme/',
-			'section_text' => __('Get it', 'constructzine-lite'),
-			'priority' => 900,
-		) ) );
+		$manager->add_section(
+			new Customizer_Info(
+				$manager, 'constructzine_lite_view_pro', array(
+				'section_title' => __( 'View PRO version', 'constructzine-lite' ),
+				'section_url' => 'https://themeisle.com/themes/constructzine-construction-wordpress-theme/',
+				'section_text' => __( 'Get it', 'constructzine-lite' ),
+				'priority' => 900,
+				)
+			)
+		);
 	}
 
 	/**
@@ -92,7 +96,7 @@ final class Customizer_Info_Singleton {
 	public function enqueue_control_scripts() {
 
 		wp_enqueue_script( 'customizer-info-js', trailingslashit( get_template_directory_uri() ) . 'includes/customizer-info/js/customizer-info-controls.js', array( 'customize-controls' ) );
-		wp_enqueue_style( 'customizer-info-style', trailingslashit( get_template_directory_uri() ) . 'includes/customizer-info/css/style.css');
+		wp_enqueue_style( 'customizer-info-style', trailingslashit( get_template_directory_uri() ) . 'includes/customizer-info/css/style.css' );
 
 	}
 }

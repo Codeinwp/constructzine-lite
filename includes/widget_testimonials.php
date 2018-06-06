@@ -1,7 +1,7 @@
 <?php
 
 function constructzine_lite_register_testimonial_widget() {
-    register_widget( 'Constructzine_Lite_Testimonials_Widget' );
+	register_widget( 'Constructzine_Lite_Testimonials_Widget' );
 }
 add_action( 'widgets_init', 'constructzine_lite_register_testimonial_widget' );
 
@@ -15,7 +15,7 @@ class Constructzine_Lite_Testimonials_Widget extends WP_Widget {
 		parent::__construct(
 			'constructzine_widget_testimonials', // Base ID
 			__( 'Testimonials', 'constructzine-lite' ), // Name
-			array( 'description' => __( 'A Testimonial Widget', 'constructzine-lite' ), ) // Args
+			array( 'description' => __( 'A Testimonial Widget', 'constructzine-lite' ) ) // Args
 		);
 	}
 
@@ -28,49 +28,49 @@ class Constructzine_Lite_Testimonials_Widget extends WP_Widget {
 	 * @param array $instance Saved values from database.
 	 */
 	public function widget( $args, $instance ) {
-				extract($args);
-				$defaults = array( 
+				extract( $args );
+				$defaults = array(
 					'title' => __( 'What customers says', 'constructzine-lite' ),
 					'first_name' => __( 'Ionut Neagu', 'constructzine-lite' ),
 					'tst1' =>  __( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus justo at justo facilisis, et gravida lacus ornare. Proin nisl mauris, pretium et euismod a, congue quis odio.', 'constructzine-lite' ),
 					'second_name' => __( 'Marius Cristea', 'constructzine-lite' ),
-					'tst2' =>  __( 'Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed magna ante. Duis sodales, dui vitae tincidunt aliquet, augue magna pharetra libero, nec congue nibh felis congue purus.', 'constructzine-lite' )
+					'tst2' =>  __( 'Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed magna ante. Duis sodales, dui vitae tincidunt aliquet, augue magna pharetra libero, nec congue nibh felis congue purus.', 'constructzine-lite' ),
 					);
-					
-				$instance = wp_parse_args( (array) $instance, $defaults ); 
-     	        echo $before_widget;
+
+				$instance = wp_parse_args( (array) $instance, $defaults );
+				echo $before_widget;
 		?>
 		<div class="feedback block">
 			<h2 class="block-title">
-				<?php if(!empty($instance['title'])) echo esc_attr($instance['title']); ?>
+				<?php if (!empty( $instance['title'] )) { echo esc_attr( $instance['title'] );} ?>
 			</h2>
 
 			<div class="feedback">
 				<p class="feedback-meta">
 					<strong>
-						<?php if(!empty($instance['first_name'])) echo esc_attr( $instance['first_name'] ); ?>							
+						<?php if (!empty( $instance['first_name'] )) { echo esc_attr( $instance['first_name'] );} ?>							
 					</strong>
 				</p><!--/.feedback-meta-->
 				<blockquote>
-					<p><?php if(!empty($instance['tst1'])) echo esc_attr( $instance['tst1'] ); ?></p>
+					<p><?php if (!empty( $instance['tst1'] )) { echo esc_attr( $instance['tst1'] );} ?></p>
 				</blockquote><!--/.feedback-entry-->
 			</div>
 
 			<div class="feedback">
 				<p class="feedback-meta">
 					<strong>
-						<?php if(!empty($instance['second_name'])) echo esc_attr( $instance['second_name'] ); ?>
+						<?php if (!empty( $instance['second_name'] )) { echo esc_attr( $instance['second_name'] );} ?>
 					</strong>
 				</p><!--/.feedback-meta-->
 				<blockquote>
-					<p><?php if(!empty($instance['tst2'])) echo esc_attr( $instance['tst2'] ); ?></p>
+					<p><?php if (!empty( $instance['tst2'] )) { echo esc_attr( $instance['tst2'] );} ?></p>
 				</blockquote>
 			</div>
 		</div>
 		<?php
 		echo $after_widget;
 	}
-	
+
 	/**
 	 * Sanitize widget form values as they are saved.
 	 *
@@ -91,8 +91,8 @@ class Constructzine_Lite_Testimonials_Widget extends WP_Widget {
 
 		return $instance;
 	}
-	
-	
+
+
 	/**
 	 * Back-end widget form.
 	 *
@@ -101,14 +101,14 @@ class Constructzine_Lite_Testimonials_Widget extends WP_Widget {
 	 * @param array $instance Previously saved values from database.
 	 */
 	public function form( $instance ) {
-     	        $defaults = array( 
+				$defaults = array(
 					'title' => __( 'What customers says', 'constructzine-lite' ),
 					'first_name' => __( 'Ionut Neagu', 'constructzine-lite' ),
 					'tst1' =>  __( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus justo at justo facilisis, et gravida lacus ornare. Proin nisl mauris, pretium et euismod a, congue quis odio.', 'constructzine-lite' ),
 					'second_name' => __( 'Marius Cristea', 'constructzine-lite' ),
-					'tst2' =>  __( 'Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed magna ante. Duis sodales, dui vitae tincidunt aliquet, augue magna pharetra libero, nec congue nibh felis congue purus.', 'constructzine-lite' )
+					'tst2' =>  __( 'Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed magna ante. Duis sodales, dui vitae tincidunt aliquet, augue magna pharetra libero, nec congue nibh felis congue purus.', 'constructzine-lite' ),
 					);
-					
+
 				$instance = wp_parse_args( (array) $instance, $defaults ); ?>
 
 		<p>
@@ -123,7 +123,7 @@ class Constructzine_Lite_Testimonials_Widget extends WP_Widget {
 		
 		<p>
 		<label for="<?php echo $this->get_field_id( 'tst1' ); ?>"><?php _e( 'Testimonial 1 - Content:','constructzine-lite' ); ?></label>
-		<textarea class="widefat" id="<?php echo $this->get_field_id('tst1'); ?>" name="<?php echo $this->get_field_name('tst1'); ?>"><?php echo esc_attr( $instance['tst1'] ); ?></textarea>
+		<textarea class="widefat" id="<?php echo $this->get_field_id( 'tst1' ); ?>" name="<?php echo $this->get_field_name( 'tst1' ); ?>"><?php echo esc_attr( $instance['tst1'] ); ?></textarea>
 		</p>
 		
 		<p>
@@ -133,9 +133,9 @@ class Constructzine_Lite_Testimonials_Widget extends WP_Widget {
 		
 		<p>
 		<label for="<?php echo $this->get_field_id( 'tst2' ); ?>"><?php _e( 'Testimonial 2 - Content:','constructzine-lite' ); ?></label>
-		<textarea class="widefat" id="<?php echo $this->get_field_id('tst2'); ?>" name="<?php echo $this->get_field_name('tst2'); ?>"><?php echo esc_attr( $instance['tst2'] ); ?></textarea>
+		<textarea class="widefat" id="<?php echo $this->get_field_id( 'tst2' ); ?>" name="<?php echo $this->get_field_name( 'tst2' ); ?>"><?php echo esc_attr( $instance['tst2'] ); ?></textarea>
 		</p>
-		<?php 
+		<?php
 	}
 
-} 
+}

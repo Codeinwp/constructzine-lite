@@ -1,0 +1,28 @@
+{
+  "name": "codeinwp/constructzine-lite",
+  "description": "constructzine-lite by ThemeIsle.",
+  "homepage": "https://themeisle.com/plugins/constructzine-lite/",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "ThemeIsle Team",
+      "email": "friends@themeisle.com.com",
+      "homepage": "https://themeisle.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "support": {
+    "issues": "https://github.com/Codeinwp/constructzine-lite/issues",
+    "source": "https://github.com/Codeinwp/constructzine-lite"
+  },
+  "type": "wordpress-theme",
+  "require": {
+    "codeinwp/themeisle-sdk": "master"
+  },
+  "autoload": {
+    "files": [
+      "vendor/codeinwp/themeisle-sdk/load.php"
+    ]
+  }
+}
