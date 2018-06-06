@@ -27,6 +27,7 @@
         <exclude name="Squiz.PHP.EmbeddedPhp.ContentAfterOpen" />
         <exclude name="WordPress.Arrays.MultipleStatementAlignment" />
         <exclude name="WordPress.Arrays.ArrayIndentation" />
+        <exclude name="WordPress.Functions.DontExtract.extract_extract" />
         <exclude name="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma" />
         <exclude name="WordPress.WhiteSpace" />
         <exclude name="Squiz.PHP.CommentedOutCode.Found" />
